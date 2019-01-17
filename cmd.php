@@ -1,7 +1,7 @@
 <?php
 for ($i = 1; $i <= 12; $i++ ){
 
-    $cmd = "php data.php $i";
+    $cmd = "php data2.php $i";
 
     bgExec($cmd);
 }
